@@ -1,6 +1,4 @@
-import { galleryItems } from './gallery-items.js';
-// Change code below this line
-
+import { galleryItems } from "./gallery-items.js";
 
 const galleryRef = document.querySelector(".gallery");
 
@@ -66,4 +64,3 @@ function selectImage(event) {
     }
   }
 }
-console.log(galleryItems);

@@ -1,5 +1,5 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
+
 const galleryRef = document.querySelector(".gallery");
 
 function createGallery(items) {
@@ -18,6 +18,3 @@ const lightbox = new SimpleLightbox(".gallery__item", {
   captionDelay: 250,
   captionsData: "alt",
 });
-
-console.log(galleryItems);
-
